@@ -1,0 +1,39 @@
+{
+  "Bluetooth": { "Name": "CYD Keyboard 01" },
+  "KeyboardLayout": "pt-PT",
+  "Screen": { "Rotation": 1, "Invert": true, "Background": "Black" },
+  "Objects": [
+    {
+      "Type": "Button", "Text": "Copy",
+      "X": 10, "Y": 48, "Width": 69, "Height": 58,
+      "Action": { "Type": "Keys", "Keys": ["CTRL", "C"] }
+    },
+    {
+      "Type": "Button", "Text": "Paste",
+      "X": 87, "Y": 48, "Width": 69, "Height": 58,
+      "Action": { "Type": "Keys", "Keys": ["CTRL", "V"] }
+    },
+    {
+      "Type": "Button", "Text": "F12",
+      "X": 164, "Y": 48, "Width": 69, "Height": 58,
+      "Action": { "Type": "Keys", "Keys": ["F12"] }
+    },
+    {
+      "Type": "Button", "Text": "Mute",
+      "X": 241, "Y": 48, "Width": 69, "Height": 58,
+      "Action": { "Type": "Consumer", "Command": "Mute" }
+    },
+    {
+      "Type": "Slider", "Text": "Volume",
+      "X": 10, "Y": 122, "Width": 300, "Height": 46,
+      "Mode": "Relative", "RepeatMs": 160,
+      "Decrease": "VolumeDown", "Increase": "VolumeUp"
+    },
+    {
+      "Type": "Slider", "Text": "Brilho",
+      "X": 10, "Y": 184, "Width": 300, "Height": 46,
+      "Mode": "Relative", "RepeatMs": 220,
+      "Decrease": "BrightnessDown", "Increase": "BrightnessUp"
+    }
+  ]
+}
