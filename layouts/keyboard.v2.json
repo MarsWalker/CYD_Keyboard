@@ -1,0 +1,47 @@
+{
+  "Bluetooth": { "Name": "CYD Keyboard 01" },
+  "KeyboardLayout": "pt-PT",
+  "Screen": { "Rotation": 1, "Invert": true, "Background": "Black" },
+  "Objects": [
+    {
+      "Type": "Button", "Text": "Copy",
+      "X": 10, "Y": 48, "Width": 94, "Height": 50,
+      "Action": { "Type": "Keys", "Keys": ["CTRL", "C"] }
+    },
+    {
+      "Type": "Button", "Text": "Paste",
+      "X": 112, "Y": 48, "Width": 94, "Height": 50,
+      "Action": { "Type": "Keys", "Keys": ["CTRL", "V"] }
+    },
+    {
+      "Type": "Button", "Text": "F12",
+      "X": 214, "Y": 48, "Width": 96, "Height": 50,
+      "Action": { "Type": "Keys", "Keys": ["F12"] }
+    },
+    {
+      "Type": "Button", "Text": "Volume -",
+      "X": 10, "Y": 110, "Width": 94, "Height": 54,
+      "Action": { "Type": "Consumer", "Command": "VolumeDown" }
+    },
+    {
+      "Type": "Button", "Text": "Mute/Unmute",
+      "X": 112, "Y": 110, "Width": 94, "Height": 54,
+      "Action": { "Type": "Consumer", "Command": "Mute" }
+    },
+    {
+      "Type": "Button", "Text": "Volume +",
+      "X": 214, "Y": 110, "Width": 96, "Height": 54,
+      "Action": { "Type": "Consumer", "Command": "VolumeUp" }
+    },
+    {
+      "Type": "Button", "Text": "Brilho -",
+      "X": 10, "Y": 176, "Width": 146, "Height": 54,
+      "Action": { "Type": "Consumer", "Command": "BrightnessDown" }
+    },
+    {
+      "Type": "Button", "Text": "Brilho +",
+      "X": 164, "Y": 176, "Width": 146, "Height": 54,
+      "Action": { "Type": "Consumer", "Command": "BrightnessUp" }
+    }
+  ]
+}
