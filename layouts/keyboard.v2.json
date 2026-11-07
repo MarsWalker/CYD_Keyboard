@@ -20,6 +20,7 @@
     },
     {
       "Type": "Button", "Text": "Volume -",
+      "Color": "#854747",
       "X": 10, "Y": 110, "Width": 94, "Height": 54,
       "Action": { "Type": "Consumer", "Command": "VolumeDown" }
     },
@@ -30,16 +31,19 @@
     },
     {
       "Type": "Button", "Text": "Volume +",
+      "Color": "#386E50",
       "X": 214, "Y": 110, "Width": 96, "Height": 54,
       "Action": { "Type": "Consumer", "Command": "VolumeUp" }
     },
     {
       "Type": "Button", "Text": "Brilho -",
+      "Color": "#854747",
       "X": 10, "Y": 176, "Width": 146, "Height": 54,
       "Action": { "Type": "Consumer", "Command": "BrightnessDown" }
     },
     {
       "Type": "Button", "Text": "Brilho +",
+      "Color": "#386E50",
       "X": 164, "Y": 176, "Width": 146, "Height": 54,
       "Action": { "Type": "Consumer", "Command": "BrightnessUp" }
     }
